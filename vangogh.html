@@ -22,7 +22,8 @@
             display: inline-block;
             animation: rainbow 5s infinite;
             background-image: linear-gradient(310deg, #1e90ff, #87cefa, #b0e0e6);
-            -webkit-background-clip: text;
+            background-clip: text; /* Добавляем стандартное свойство */
+            -webkit-background-clip: text; /* Оставляем свойство для браузеров WebKit */
             color: transparent;
         }
         @keyframes rainbow {
