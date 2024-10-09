@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вдохновение Ван Гога</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f0f8ff;
+        }
+        .header {
+            background: #1e90ff;
+            text-align: center;
+            padding: 1em 0;
+            color: white;
+        }
+        .header h1 span {
+            display: inline-block;
+            animation: rainbow 5s infinite;
+            background-image: linear-gradient(310deg, #1e90ff, #87cefa, #b0e0e6);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        @keyframes rainbow {
+            0%, 100% {filter: hue-rotate(0deg);}
+            50% {filter: hue-rotate(360deg);}
+        }
+        .nav {
+            margin: 1em;
+            text-align: center;
+        }
+        .nav a {
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: #1e90ff;
+            color: white;
+            border-radius: 5px;
+            margin: 0 5px;
+        }
+        .container {
+            padding: 2em;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .image {
+            max-width: 100%;
+            height: auto;
+        }
+        .content {
+            margin-top: 2em;
+        }
+        .footer {
+            background: #b0e0e6;
+            text-align: center;
+            padding: 1em 0;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1><span>Погружение в мир Ван Гога</span></h1>
+    </div>
+
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="vangogh.html">Van Gogh</a>
+    </div>
+
+    <div class="container">
+        <img src="amsterdam.webp" alt="Ван Гог стиль 1" class="image">
+        <div class="content">
+            <h2>Очарование ночного Амстердама</h2>
+            <p>Картины в стиле Ван Гога дарят возможность увидеть Амстердам через призму творчества великого художника. Яркие цвета, экспрессивные мазки и захватывающие виды.</p>
+            <img src="museum.webp" alt="Ван Гог стиль 2" class="image">
+            <p>Волшебство ночи на улицах Амстердама, вдохновленное звездами, тюльпанами и извилистыми каналами города. Каждый шаг — это искусство.</p>
+            <div>
+                <img src="tulips.webp" alt="Ван Гог стиль 3" class="image">
+                <p>Почувствуйте дыхание Ван Гога в каждом уголке города — уникальный стиль великого мастера захватывает и переносит вас в мир искусства.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>С любовью, твой музейный гид.</p>
+    </div>
+</body>
+</html>
